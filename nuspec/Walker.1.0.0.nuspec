@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Walker</id>
+        <version>1.0.0</version>
+        <title>Walker</title>
+        <authors>Marc Bruins</authors>
+        <projectUrl>https://github.com/MarcBruins/Walker-Xamarin-Android</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Easy to create cool walkthrough page for Android</description>
+        <summary />
+    </metadata>
+    <files>
+        <file src="Z:\Walker-Xamarin-Android\WalkerBinding\bin\Release\WalkerBinding.dll" target="lib\MonoAndroid40\WalkerBinding.dll" />
+    </files>
+</package>
