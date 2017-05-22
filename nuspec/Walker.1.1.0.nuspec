@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Walker</id>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <title>Walker</title>
         <authors>Marc Bruins</authors>
         <projectUrl>https://github.com/MarcBruins/Walker-Xamarin-Android</projectUrl>
@@ -11,6 +11,6 @@
         <summary />
     </metadata>
     <files>
-        <file src="Z:\Walker-Xamarin-Android\WalkerBinding\bin\Release\WalkerBinding.dll" target="lib\MonoAndroid40\WalkerBinding.dll" />
+        <file src="..\Walker\bin\Release\Walker.dll" target="lib\MonoAndroid40\Walker.dll" />
     </files>
 </package>
