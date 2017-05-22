@@ -6,20 +6,15 @@ namespace Sample
 {
     public class ThirdPageFragment : WalkerFragment
     {
-        protected override int PagePosition => 0;
+        protected override int PagePosition => 2;
 
         private WalkerLayout _walkerLayout;
         protected override WalkerLayout WalkerLayout => _walkerLayout;
 
-        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        {
-            return inflater.Inflate(Resource.Layout.third, container, false);
-        }
-
         public override void OnViewCreated(View view, Bundle savedInstanceState)
         {
             base.OnViewCreated(view, savedInstanceState);
-            _walkerLayout = (WalkerLayout)view.FindViewById(Resource.Id.walker);
+            //    _walkerLayout = (WalkerLayout)view.FindViewById(Resource.);
             _walkerLayout.Animation = AnimationType.Custom;
             _walkerLayout.CustomAnimationListener = new CustomAnimation(_walkerLayout);
             _walkerLayout.Setup();

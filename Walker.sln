@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkerBinding", "WalkerBinding\WalkerBinding.csproj", "{DB3C5A7B-83F2-4C97-9586-8812208419B5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{31EB33A8-4E1F-4288-9AD4-CDDD7E471384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walker", "Walker\Walker.csproj", "{196654D1-2662-4D53-AF0E-180C52EFAD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB3C5A7B-83F2-4C97-9586-8812208419B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB3C5A7B-83F2-4C97-9586-8812208419B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB3C5A7B-83F2-4C97-9586-8812208419B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB3C5A7B-83F2-4C97-9586-8812208419B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31EB33A8-4E1F-4288-9AD4-CDDD7E471384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31EB33A8-4E1F-4288-9AD4-CDDD7E471384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31EB33A8-4E1F-4288-9AD4-CDDD7E471384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31EB33A8-4E1F-4288-9AD4-CDDD7E471384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196654D1-2662-4D53-AF0E-180C52EFAD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196654D1-2662-4D53-AF0E-180C52EFAD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196654D1-2662-4D53-AF0E-180C52EFAD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196654D1-2662-4D53-AF0E-180C52EFAD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
